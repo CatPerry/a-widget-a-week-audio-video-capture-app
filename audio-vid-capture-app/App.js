@@ -140,7 +140,7 @@ export default class App extends React.Component {
       playsInSilentModeIOS: true,
       interruptionModeIOS: 2,
       interruptionModeAndroid: 1,
-      playThroughEarpieceAndroid: true,
+      playThroughEarpieceAndroid: false,
     });
     if (this.recording !== null) {
       this.recording.setOnRecordingStatusUpdate(null);
@@ -179,7 +179,7 @@ export default class App extends React.Component {
       playsInSilentModeIOS: true,
       interruptionModeIOS: 2,
       interruptionModeAndroid: 1,
-      playThroughEarpieceAndroid: true,
+      playThroughEarpieceAndroid: false,
     });
     const { sound, status } = await this.recording.createNewLoadedSoundAsync(
       {
