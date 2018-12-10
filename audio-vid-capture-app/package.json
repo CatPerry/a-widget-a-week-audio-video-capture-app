@@ -12,14 +12,32 @@
   },
   "dependencies": {
     "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^8.0.0",
     "expo": "^31.0.2",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.26.1",
     "react": "16.5.0",
+    "react-mixin": "^5.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-navigation": "^2.18.2"
+    "react-native-elements": "^0.19.1",
+    "react-native-segmented-control-tab": "^3.3.1",
+    "react-native-swipeout": "^2.3.6",
+    "react-navigation": "^2.18.3",
+    "react-redux": "^6.0.0",
+    "react-timer-mixin": "^0.13.4",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
-    "jest-expo": "^31.0.0"
+    "jest-expo": "^31.0.0",
+    "react-native-scripts": "^2.0.1",
+    "remote-redux-devtools": "^0.5.14"
   },
   "private": true
 }
